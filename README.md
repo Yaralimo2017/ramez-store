@@ -40,3 +40,4 @@
 | w7 | https://unsplash.com/photos/K78mXNm0zdM |
 | w8 | https://unsplash.com/photos/pirt2RxX36Q |
 | w9 | https://unsplash.com/photos/lSl94SZHRgA |
+| hero.jpg | https://unsplash.com/photos/HgyAIYvMWkw |
