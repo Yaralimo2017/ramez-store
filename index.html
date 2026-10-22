@@ -431,7 +431,7 @@ const ICONS={
 };
 const svg=k=>`<svg viewBox="0 0 120 120" ${S} aria-hidden="true">${ICONS[k]}</svg>`;
 // Product photos, keyed by product id (e.g. m1:'images/m1.jpg'). Products without a photo keep their line drawing.
-const IMG={};
+const IMG=Object.fromEntries('m1 m2 m3 m4 m5 m6 m7 m8 m9 w1 w2 w3 w4 w5 w6 w7 w8 w9'.split(' ').map(id=>[id,'images/products/'+id+'.jpg']));
 const pic=p=>IMG[p.id]?`<img src="${IMG[p.id]}" alt="${L(p.n)}" loading="lazy">`:svg(p.i);
 const P=[
   {id:'m1',g:'men',c:'clothes',p:68500,i:'jacket',t:'rgba(196,165,108,.22)',s:['48','50','52','54'],r:'ltd',n:['بدلة «الزمالك»','The Zamalek Suit'],m:['صوف سوبر ١٥٠s من بييلا · تفصيل نابولي','Super 150s Biella wool · Neapolitan cut']},
